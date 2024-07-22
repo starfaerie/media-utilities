@@ -6,7 +6,7 @@ The frame is chosen based on a provided frame number or a default value of 1.
 The script uses ffprobe to get the video's frame rate and ffmpeg to extract the frame.
 
 Example Usage:
-python extract_single_frame.py -i C:/path/to/file.mov -o D:/path/to/output/file.jpg -f 240
+python extract_single_frame_from_video.py -i C:/path/to/file.mov -o D:/path/to/output/file.jpg -f 240
 
 This will extract the 240th frame from the video file at `C:/path/to/file.mov` 
 and save it as a .jpg at the specified output path `D:/path/to/output/file.jpg`.
